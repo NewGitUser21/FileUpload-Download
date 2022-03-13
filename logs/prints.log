@@ -1,4 +1,1 @@
-18:18:40.857 [TestNG] INFO  TestNG.GreenKartE2E.base - Order is now placed successfully
-18:18:40.978 [TestNG] INFO  TestNG.GreenKartE2E.base - Country code is selected as 'INDIA'
-18:18:41.081 [TestNG] INFO  TestNG.GreenKartE2E.base - Agreement selected
-18:18:41.174 [TestNG] INFO  TestNG.GreenKartE2E.base - Order is placed successfully - Now user redirected back to Home Page
+19:09:09.270 [TestNG] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x4bd70c19ad29482b

@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>TestNG</groupId>
-  <artifactId>GreenKartE2E</artifactId>
+  <groupId>FlightBookingE2E</groupId>
+  <artifactId>FlightBooking</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>GreenKartE2E</name>
+  <name>FlightBooking</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -64,7 +64,6 @@
 </dependency>
 
 
-
   </dependencies>
 
   <build>
@@ -76,7 +75,6 @@
             <filtering>true</filtering>
          </resource>
        </resources>
-
 
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -90,7 +88,7 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-        <plugin>
+         <plugin>
   			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-compiler-plugin</artifactId>
   			<version>3.8.1</version>

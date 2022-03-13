@@ -8,33 +8,45 @@
       <![CDATA[Navigated to Home Page]]>
     </line>
     <line>
-      <![CDATA[Selected vegetables are added to Cart]]>
+      <![CDATA[One-Way trip is selected]]>
     </line>
     <line>
-      <![CDATA[Vegetables in Cart are now checked-out]]>
+      <![CDATA[Country - India is selected from list of available countries]]>
     </line>
     <line>
-      <![CDATA[Coupon code is applied]]>
+      <![CDATA[Senior-Citizen check box is selected]]>
     </line>
     <line>
-      <![CDATA[Order is now placed successfully]]>
+      <![CDATA[Bangalore is selected as boarding point]]>
     </line>
     <line>
-      <![CDATA[Country code is selected as 'INDIA']]>
+      <![CDATA[Chennai is selected as destination point]]>
     </line>
     <line>
-      <![CDATA[Agreement selected]]>
+      <![CDATA[Current date is selected]]>
     </line>
     <line>
-      <![CDATA[Order is placed successfully - Now user redirected back to Home Page]]>
+      <![CDATA[Second calendar is disabled while selecting flight]]>
+    </line>
+    <line>
+      <![CDATA[Number of Senior citizens selected for boarding from BLA to MAA are '5']]>
+    </line>
+    <line>
+      <![CDATA[Number of passengers are confirmed]]>
+    </line>
+    <line>
+      <![CDATA[Indian currency is selected]]>
+    </line>
+    <line>
+      <![CDATA[Flight booking confirmed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-02-20T12:48:30Z" name="Suite" finished-at="2022-02-20T12:48:41Z" duration-ms="10386">
+  <suite started-at="2022-03-13T13:38:55Z" name="Suite" finished-at="2022-03-13T13:39:24Z" duration-ms="29009">
     <groups>
     </groups>
-    <test started-at="2022-02-20T12:48:30Z" name="Validating core navigation to successful ordering vegetables" finished-at="2022-02-20T12:48:41Z" duration-ms="10386">
-      <class name="TestNG.GreenKartE2E.coreNavigator">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:TestNG.GreenKartE2E.coreNavigator@5972d253]" started-at="2022-02-20T18:18:30Z" name="initialize" finished-at="2022-02-20T18:18:38Z" duration-ms="7519" status="PASS">
+    <test started-at="2022-03-13T13:38:55Z" name="Validating core navigation to successful ordering vegetables" finished-at="2022-03-13T13:39:24Z" duration-ms="29009">
+      <class name="FlightBookingE2E.FlightBooking.baseNavigation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FlightBookingE2E.FlightBooking.baseNavigation@5972d253]" started-at="2022-03-13T19:08:55Z" name="initialize" finished-at="2022-03-13T19:09:19Z" duration-ms="23854" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver is initialized]]>
@@ -44,32 +56,44 @@
             </line>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="PageNavigation()[pri:0, instance:TestNG.GreenKartE2E.coreNavigator@5972d253]" started-at="2022-02-20T18:18:38Z" name="PageNavigation" finished-at="2022-02-20T18:18:41Z" duration-ms="2834" status="PASS">
+        <test-method signature="PageNavigation()[pri:0, instance:FlightBookingE2E.FlightBooking.baseNavigation@5972d253]" started-at="2022-03-13T19:09:19Z" name="PageNavigation" finished-at="2022-03-13T19:09:24Z" duration-ms="5003" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Selected vegetables are added to Cart]]>
+              <![CDATA[One-Way trip is selected]]>
             </line>
             <line>
-              <![CDATA[Vegetables in Cart are now checked-out]]>
+              <![CDATA[Country - India is selected from list of available countries]]>
             </line>
             <line>
-              <![CDATA[Coupon code is applied]]>
+              <![CDATA[Senior-Citizen check box is selected]]>
             </line>
             <line>
-              <![CDATA[Order is now placed successfully]]>
+              <![CDATA[Bangalore is selected as boarding point]]>
             </line>
             <line>
-              <![CDATA[Country code is selected as 'INDIA']]>
+              <![CDATA[Chennai is selected as destination point]]>
             </line>
             <line>
-              <![CDATA[Agreement selected]]>
+              <![CDATA[Current date is selected]]>
             </line>
             <line>
-              <![CDATA[Order is placed successfully - Now user redirected back to Home Page]]>
+              <![CDATA[Second calendar is disabled while selecting flight]]>
+            </line>
+            <line>
+              <![CDATA[Number of Senior citizens selected for boarding from BLA to MAA are '5']]>
+            </line>
+            <line>
+              <![CDATA[Number of passengers are confirmed]]>
+            </line>
+            <line>
+              <![CDATA[Indian currency is selected]]>
+            </line>
+            <line>
+              <![CDATA[Flight booking confirmed]]>
             </line>
           </reporter-output>
         </test-method> <!-- PageNavigation -->
-      </class> <!-- TestNG.GreenKartE2E.coreNavigator -->
+      </class> <!-- FlightBookingE2E.FlightBooking.baseNavigation -->
     </test> <!-- Validating core navigation to successful ordering vegetables -->
   </suite> <!-- Suite -->
 </testng-results>
