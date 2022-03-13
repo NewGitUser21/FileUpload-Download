@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>FlightBookingE2E</groupId>
-  <artifactId>FlightBooking</artifactId>
+  <groupId>File</groupId>
+  <artifactId>FileUploadandDownload</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>FlightBooking</name>
+  <name>FileUploadandDownload</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -45,37 +45,12 @@
     <artifactId>commons-io</artifactId>
     <version>2.11.0</version>
 </dependency>
-<!-- https://logging.apache.org/log4j/2.x/maven-artifacts.html   -->
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.17.1</version>
-  </dependency>
-  <dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.17.1</version>
-  </dependency>
-<!-- https://search.maven.org/artifact/com.aventstack/extentreports/5.0.4/jar -->
-<dependency>
-  <groupId>com.aventstack</groupId>
-  <artifactId>extentreports</artifactId>
-  <version>5.0.4</version>
-</dependency>
+
 
 
   </dependencies>
 
   <build>
-
-<!-- log4j resources info, this is anatory for log4j -->
-       <resources>
-         <resource>
-            <directory>src/test/java</directory>
-            <filtering>true</filtering>
-         </resource>
-       </resources>
-
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
@@ -88,7 +63,7 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-         <plugin>
+        <plugin>
   			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-compiler-plugin</artifactId>
   			<version>3.8.1</version>

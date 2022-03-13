@@ -3,7 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="FlightBookingE2E.FlightBooking.baseNavigation"/>
+      <class name="File.FileUploadandDownload.DownLoadFileUsingChromeOptionsClass">
+        <methods>
+          <include name="UploadFilePlusRobot"/>
+        </methods>
+      </class> <!-- File.FileUploadandDownload.DownLoadFileUsingChromeOptionsClass -->
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->
